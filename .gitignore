@@ -1,0 +1,23 @@
+# Competition data is distributed separately.
+data/
+
+# Trained models and local caches.
+*.cbm
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local experiment submissions; the selected candidate is explicitly tracked.
+submission_v2_blend.csv
+submission_v3_seed1.csv
+submission_v4_two_catboost.csv
+submission_v5_seed1_base20.csv
+submission_v6_seed1_extra05.csv
+submission.csv
+feature_importance.csv
+
+# IDE and OS metadata.
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
